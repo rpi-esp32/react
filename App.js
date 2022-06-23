@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-//import {Test} from './Test.js';
+import {Test} from './Test.js';
 
 import ReactDOM from "react-dom";
 
 
 function App(){
-  return (<div><h1>FILE</h1></div>);
+  return (<div><h1>FILE</h1><Test /></div>);
   
 }
 
