@@ -1,8 +1,27 @@
+'use strict';
 
-function App() {
-  const greeting = 'Hello Function Component!';
+const e = React.createElement;
 
-  return <div><h1>HELLO</h1></div>;
+class LikeButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { liked: false };
+  }
+
+  render() {
+    if (this.state.liked) {
+      return 'You liked this.';
+    }
+
+    return e(
+      'button',
+      { onClick: () => this.setState({ liked: true }) },
+      'Like'
+    );
+  }
 }
 
-export default App;
+
+const domContainer = document.querySelector('root');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(LikeButton));
