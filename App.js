@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 
 function App(){
-  return (<div><h1>FILE</h1><Test /></div>);
+  return ->{(<div><h1>FILE</h1><Test /></div>);}
   
 }
 
