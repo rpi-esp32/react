@@ -1,4 +1,3 @@
-import React from 'react';
 
 function App() {
   const greeting = 'Hello Function Component!';
