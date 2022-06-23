@@ -15,7 +15,7 @@
       <h1>2nd FUNCTION</h1>
       </div>);
   }
-  var e = <div><h1>HELLO </h1> <T /> <F /> <App /> </div>
+  var e = <div><h1>HELLO </h1> <T /> <F />  </div>
 
   const r = ReactDOM.createRoot(document.getElementById("root"))
   r.render(e)
