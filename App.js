@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   const greeting = 'Hello Function Component!';
 
-  return <h1>HELLO</h1>;
+  return <div><h1>HELLO</h1></div>;
 }
 
 export default App;
