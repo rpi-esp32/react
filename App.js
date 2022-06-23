@@ -1,14 +1,9 @@
-import React, {Component} from 'react';
-import {Test} from './Test.js';
+import React from 'react';
 
-import ReactDOM from "react-dom";
+function App() {
+  const greeting = 'Hello Function Component!';
 
-
-function App(){
-  return <div><h1>FILE</h1></div>
-  
+  return <h1>{greeting}</h1>;
 }
-
-
 
 export default App;
